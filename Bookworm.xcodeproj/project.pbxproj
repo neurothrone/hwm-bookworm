@@ -11,6 +11,12 @@
 		2F8D2BF2294456EB002AA901 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D2BF1294456EB002AA901 /* ContentView.swift */; };
 		2F8D2BF4294456EC002AA901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8D2BF3294456EC002AA901 /* Assets.xcassets */; };
 		2F8D2BF7294456EC002AA901 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8D2BF6294456EC002AA901 /* Preview Assets.xcassets */; };
+		2F8D2C00294458D8002AA901 /* Entities.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D2BFE294458D8002AA901 /* Entities.xcdatamodeld */; };
+		2F8D2C032944599C002AA901 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D2C022944599C002AA901 /* DataController.swift */; };
+		2F8D2C05294466A9002AA901 /* ListingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D2C04294466A9002AA901 /* ListingView.swift */; };
+		2F8D2C0829446763002AA901 /* Review+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D2C0629446763002AA901 /* Review+CoreDataClass.swift */; };
+		2F8D2C0B29446984002AA901 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D2C0A29446984002AA901 /* DetailView.swift */; };
+		2F8D2C0D29447A47002AA901 /* RenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D2C0C29447A47002AA901 /* RenderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		2F8D2BF3294456EC002AA901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F8D2BF6294456EC002AA901 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2F8D2BF8294456EC002AA901 /* Bookworm.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bookworm.entitlements; sourceTree = "<group>"; };
+		2F8D2BFF294458D8002AA901 /* Entities.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Entities.xcdatamodel; sourceTree = "<group>"; };
+		2F8D2C022944599C002AA901 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		2F8D2C04294466A9002AA901 /* ListingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListingView.swift; sourceTree = "<group>"; };
+		2F8D2C0629446763002AA901 /* Review+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Review+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2F8D2C0A29446984002AA901 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2F8D2C0C29447A47002AA901 /* RenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,10 @@
 			children = (
 				2F8D2BEF294456EB002AA901 /* AppMain.swift */,
 				2F8D2BF1294456EB002AA901 /* ContentView.swift */,
+				2F8D2C04294466A9002AA901 /* ListingView.swift */,
+				2F8D2C0A29446984002AA901 /* DetailView.swift */,
+				2F8D2C0C29447A47002AA901 /* RenderView.swift */,
+				2F8D2C0129445992002AA901 /* Data */,
 				2F8D2BF3294456EC002AA901 /* Assets.xcassets */,
 				2F8D2BF8294456EC002AA901 /* Bookworm.entitlements */,
 				2F8D2BF5294456EC002AA901 /* Preview Content */,
@@ -67,6 +83,16 @@
 				2F8D2BF6294456EC002AA901 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F8D2C0129445992002AA901 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				2F8D2C022944599C002AA901 /* DataController.swift */,
+				2F8D2C0629446763002AA901 /* Review+CoreDataClass.swift */,
+				2F8D2BFE294458D8002AA901 /* Entities.xcdatamodeld */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +166,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F8D2BF2294456EB002AA901 /* ContentView.swift in Sources */,
+				2F8D2C05294466A9002AA901 /* ListingView.swift in Sources */,
+				2F8D2C032944599C002AA901 /* DataController.swift in Sources */,
+				2F8D2C0B29446984002AA901 /* DetailView.swift in Sources */,
 				2F8D2BF0294456EB002AA901 /* AppMain.swift in Sources */,
+				2F8D2C00294458D8002AA901 /* Entities.xcdatamodeld in Sources */,
+				2F8D2C0D29447A47002AA901 /* RenderView.swift in Sources */,
+				2F8D2C0829446763002AA901 /* Review+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +368,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2F8D2BFE294458D8002AA901 /* Entities.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2F8D2BFF294458D8002AA901 /* Entities.xcdatamodel */,
+			);
+			currentVersion = 2F8D2BFF294458D8002AA901 /* Entities.xcdatamodel */;
+			path = Entities.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2F8D2BE4294456EB002AA901 /* Project object */;
 }
