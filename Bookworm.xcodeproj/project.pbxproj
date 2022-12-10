@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2F8D2BF0294456EB002AA901 /* BookwormApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D2BEF294456EB002AA901 /* BookwormApp.swift */; };
+		2F8D2BF0294456EB002AA901 /* AppMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D2BEF294456EB002AA901 /* AppMain.swift */; };
 		2F8D2BF2294456EB002AA901 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8D2BF1294456EB002AA901 /* ContentView.swift */; };
 		2F8D2BF4294456EC002AA901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8D2BF3294456EC002AA901 /* Assets.xcassets */; };
 		2F8D2BF7294456EC002AA901 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8D2BF6294456EC002AA901 /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		2F8D2BEC294456EB002AA901 /* Bookworm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bookworm.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F8D2BEF294456EB002AA901 /* BookwormApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookwormApp.swift; sourceTree = "<group>"; };
+		2F8D2BEF294456EB002AA901 /* AppMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMain.swift; sourceTree = "<group>"; };
 		2F8D2BF1294456EB002AA901 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F8D2BF3294456EC002AA901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F8D2BF6294456EC002AA901 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		2F8D2BEE294456EB002AA901 /* Bookworm */ = {
 			isa = PBXGroup;
 			children = (
-				2F8D2BEF294456EB002AA901 /* BookwormApp.swift */,
+				2F8D2BEF294456EB002AA901 /* AppMain.swift */,
 				2F8D2BF1294456EB002AA901 /* ContentView.swift */,
 				2F8D2BF3294456EC002AA901 /* Assets.xcassets */,
 				2F8D2BF8294456EC002AA901 /* Bookworm.entitlements */,
@@ -140,7 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F8D2BF2294456EB002AA901 /* ContentView.swift in Sources */,
-				2F8D2BF0294456EB002AA901 /* BookwormApp.swift in Sources */,
+				2F8D2BF0294456EB002AA901 /* AppMain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
