@@ -21,16 +21,7 @@ struct RenderView: View {
         .font(.system(.title, design: .serif))
         .italic()
 
-      HStack {
-        ForEach(Rating.allCases) { rating in
-          Image(systemName: "star.fill")
-            .foregroundColor(
-              rating.rawValue > review.rating
-              ? .gray
-              : .yellow
-            )
-        }
-      }
+      RatingView(reviewRating: Int(review.rating))
 
       ScrollView {
         Text(review.text)

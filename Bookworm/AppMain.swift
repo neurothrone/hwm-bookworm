@@ -22,5 +22,7 @@ struct AppMain: App {
           dataController.save()
         }
     }
+
+    Settings(content: SettingsView.init)
   }
 }

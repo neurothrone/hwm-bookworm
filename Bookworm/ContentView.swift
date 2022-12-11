@@ -12,7 +12,7 @@ struct ContentView: View {
 
   var body: some View {
     NavigationSplitView {
-      ListingView()
+      ReviewListView()
         .frame(minWidth: 250)
     } detail: {
       if let selectedReview = dataController.selectedReview {
